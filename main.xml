@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="unified_main" verbose="1" >	
+
+  <test name="login"> 
+    <classes>
+       <class name="com.unified.testCasesNew.Login"></class>
+         </classes>
+  </test> 
+   <!-- <test name="group"> 
+    <classes>
+       <class name="com.unified.testCasesNew.Group"></class>
+    
+    </classes>
+  </test>
+    <test name="contact"> 
+    <classes>
+       <class name="com.unified.testCasesNew.Contact"></class>    
+    </classes>
+  </test> 
+ 
+   <test name="ViewAllGroup"> 
+    <classes>
+       <class name="com.unified.testCasesNew.ViewAllGroup"></class>    
+    </classes>
+  </test>
+  <test name="Template"> 
+    <classes>
+       <class name="com.unified.testCasesNew.Template"></class>    
+    </classes>
+  </test>
+   -->
+  <test name="Reg_gloabalone"> 
+    <classes>
+       <class name="com.unified.testCasesNew.Regression_Globalone"></class>    
+    </classes>
+  </test>
+ 
+  <test name="exit"> 
+    <classes>
+           <class name="com.unified.testCasesNew.Exit"></class>
+    
+    </classes>
+  </test> 
+ 
+
+
+</suite>
